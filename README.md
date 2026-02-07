@@ -1,6 +1,13 @@
-# File Clerk — AI-Powered Desktop File Organizer
+<p align="center">
+  <img src="assets/logo.png" alt="File Clerk" width="180">
+</p>
 
-Drop files on your Desktop. File Clerk reads them, tags them, and files them into organized folders. Search them later by description, not filename.
+<h1 align="center">File Clerk</h1>
+<p align="center"><strong>AI-Powered Desktop File Organizer</strong></p>
+<p align="center">
+  Drop files on your Desktop. File Clerk reads them, tags them, and files them<br>
+  into organized folders. Search them later by description, not filename.
+</p>
 
 **The problem:** You save a file, give it some name, toss it somewhere. Six months later you know you built it but can't find it. You've been doing this for decades.
 
@@ -132,6 +139,11 @@ python3 file-finder-gui.py
 ```
 
 ### GUI (File Finder)
+
+<p align="center">
+  <img src="assets/screenshot-gui.png" alt="File Finder GUI" width="700">
+</p>
+
 - Type in the search box — results filter live as you type
 - Click a result to see its full path, summary, and tags
 - Double-click to open the file

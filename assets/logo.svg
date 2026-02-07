@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+
+  <!-- Clipped round icon -->
+  <g clip-path="url(#circle-clip)">
+
+    <!-- White background -->
+    <rect width="512" height="512" fill="#FFFFFF"/>
+
+    <!-- Subtle radial glow behind character -->
+    <circle cx="256" cy="280" r="200" fill="#F3EAFF" opacity="0.6"/>
+
+    <!-- === BODY === -->
+    <!-- Torso - simple rounded shape -->
+    <ellipse cx="256" cy="420" rx="100" ry="90" fill="#7C3AED"/>
+    <!-- Slight highlight on torso -->
+    <ellipse cx="240" cy="400" rx="60" ry="50" fill="#8B5CF6" opacity="0.5"/>
+
+    <!-- === LEFT ARM (character's left, viewer's right) - holding folder === -->
+    <path d="M340 380 Q380 350 390 310 Q392 300 385 298 Q378 296 370 320 Q360 345 330 370Z" fill="#6D28D9"/>
+
+    <!-- === FILE FOLDER === -->
+    <!-- Folder back -->
+    <rect x="365" y="260" width="75" height="55" rx="4" fill="#6D28D9"/>
+    <!-- Folder tab -->
+    <rect x="370" y="252" width="30" height="12" rx="3" fill="#6D28D9"/>
+    <!-- Folder front -->
+    <rect x="365" y="272" width="75" height="45" rx="4" fill="#8B5CF6"/>
+    <!-- Folder paper peeking out -->
+    <rect x="372" y="266" width="55" height="8" rx="2" fill="#EDE9FE"/>
+    <!-- Folder line detail -->
+    <line x1="375" y1="290" x2="430" y2="290" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+    <line x1="375" y1="298" x2="420" y2="298" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- === RIGHT ARM (character's right, viewer's left) === -->
+    <path d="M172 380 Q140 360 125 340 Q120 333 127 330 Q134 328 142 345 Q155 365 180 378Z" fill="#6D28D9"/>
+
+    <!-- === HEAD === -->
+    <!-- Head shape -->
+    <ellipse cx="256" cy="240" rx="88" ry="95" fill="#7C3AED"/>
+    <!-- Head highlight -->
+    <ellipse cx="245" cy="220" rx="55" ry="60" fill="#8B5CF6" opacity="0.4"/>
+
+    <!-- === EARS === -->
+    <ellipse cx="165" cy="230" rx="16" ry="22" fill="#7C3AED"/>
+    <ellipse cx="165" cy="228" rx="9" ry="14" fill="#6D28D9"/>
+    <ellipse cx="347" cy="230" rx="16" ry="22" fill="#7C3AED"/>
+    <ellipse cx="347" cy="228" rx="9" ry="14" fill="#6D28D9"/>
+
+    <!-- === GLASSES === -->
+    <!-- Glasses bridge -->
+    <rect x="238" y="222" width="36" height="6" rx="3" fill="#4C1D95"/>
+
+    <!-- Left lens (outer ring) -->
+    <circle cx="220" cy="228" r="38" fill="none" stroke="#4C1D95" stroke-width="8"/>
+    <!-- Left lens glass -->
+    <circle cx="220" cy="228" r="34" fill="#FFFFFF" opacity="0.85"/>
+    <!-- Left lens shine -->
+    <ellipse cx="210" cy="218" rx="10" ry="8" fill="#FFFFFF" opacity="0.6"/>
+
+    <!-- Right lens (outer ring) -->
+    <circle cx="292" cy="228" r="38" fill="none" stroke="#4C1D95" stroke-width="8"/>
+    <!-- Right lens glass -->
+    <circle cx="292" cy="228" r="34" fill="#FFFFFF" opacity="0.85"/>
+    <!-- Right lens shine -->
+    <ellipse cx="282" cy="218" rx="10" ry="8" fill="#FFFFFF" opacity="0.6"/>
+
+    <!-- Temple arms (glasses sides) -->
+    <line x1="178" y1="222" x2="165" y2="218" stroke="#4C1D95" stroke-width="6" stroke-linecap="round"/>
+    <line x1="334" y1="222" x2="347" y2="218" stroke="#4C1D95" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- === EYES (behind glasses) === -->
+    <!-- Left eye -->
+    <circle cx="220" cy="230" r="10" fill="#4C1D95"/>
+    <circle cx="217" cy="227" r="4" fill="#FFFFFF"/>
+    <!-- Right eye -->
+    <circle cx="292" cy="230" r="10" fill="#4C1D95"/>
+    <circle cx="289" cy="227" r="4" fill="#FFFFFF"/>
+
+    <!-- === MOUTH AND BUCK TEETH === -->
+    <!-- Smile line -->
+    <path d="M235 275 Q256 292 277 275" fill="none" stroke="#4C1D95" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Buck teeth -->
+    <rect x="245" y="275" width="11" height="16" rx="2.5" fill="#FFFFFF" stroke="#4C1D95" stroke-width="1.5"/>
+    <rect x="257" y="275" width="11" height="16" rx="2.5" fill="#FFFFFF" stroke="#4C1D95" stroke-width="1.5"/>
+    <!-- Tooth line (gap between teeth) -->
+    <line x1="256.5" y1="276" x2="256.5" y2="290" stroke="#4C1D95" stroke-width="1" opacity="0.4"/>
+
+    <!-- === HAIR / TUFT === -->
+    <path d="M230 148 Q240 125 256 138 Q272 125 282 148" fill="#6D28D9" stroke="none"/>
+    <path d="M220 155 Q232 128 250 142" fill="#5B21B6" stroke="none"/>
+    <path d="M262 142 Q280 128 292 155" fill="#5B21B6" stroke="none"/>
+
+    <!-- === COLLAR / SHIRT DETAIL === -->
+    <path d="M220 345 L256 370 L292 345" fill="none" stroke="#EDE9FE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Tiny pocket on chest -->
+    <rect x="270" y="370" width="22" height="18" rx="3" fill="none" stroke="#EDE9FE" stroke-width="2.5" opacity="0.7"/>
+    <!-- Pen in pocket -->
+    <line x1="278" y1="365" x2="278" y2="374" stroke="#EDE9FE" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  </g>
+
+  <!-- Circle border for crisp edge -->
+  <circle cx="256" cy="256" r="253" fill="none" stroke="#7C3AED" stroke-width="6" opacity="0.15"/>
+</svg>
